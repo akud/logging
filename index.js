@@ -24,10 +24,10 @@ LEVEL_NAMES[TRACE] = 'TRACE';
 let GLOBAL_LEVEL = DEBUG;
 
 class Logger {
-  constructor(name, { level, console }) {
+  constructor(name, opts) {
     this.name = name;
-    this.level = level;
-    this.console = console || global.console;
+    this.level = opts && opts.level;
+    this.console = (opts && opts.console) || global.console;
   }
 
   setLevel(level) {
