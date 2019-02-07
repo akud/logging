@@ -1,0 +1,25 @@
+{
+  "name": "@akud/logging",
+  "version": "0.0.1",
+  "description": "Simple logging framework for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akud/logging.git"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Alex Kudlick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akud/logging/issues"
+  },
+  "homepage": "https://github.com/akud/logging#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
